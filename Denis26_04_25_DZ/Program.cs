@@ -58,7 +58,7 @@ class Program {
 
         double averageTemperature = totalTemperature / temperatures.Length;
 
-        Console.WriteLine($"Максимальна температура за тиждень: {maxTemperature}");
+        Console.WriteLine($"Максимальна температура за тиждень: {maxTemperature} в день {day}");
         Console.WriteLine($"Середня температура за тиждень: {averageTemperature}");
 
     }
