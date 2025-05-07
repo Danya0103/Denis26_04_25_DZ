@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 /*
 class Program {
@@ -29,19 +29,22 @@ class Program {
 }
 */
 
-/*
+
 class Program {
     static void Main(string[] args) {
 
         double[] temperatures = {15.5, 17.8, 20.2, 18.1, 19.4, 21.3, 16.7};
+        string[] days = {"Monday", "Tuesday", "Wed", "Thu", "Fri", "Sat", "Sun"};
 
         double maxTemperature = temperatures[0];
+        string day = days[0];
 
-        for (int i = 1; i < temperatures.Length; i++) {
+        for (int i = 1; i < temperatures.Length; i++) {     // i = 1; i++ -  i = 2; i++  - i = 3; i++   ..... i = 7(stop)
 
             if (temperatures[i] > maxTemperature) {
 
                 maxTemperature = temperatures[i];
+                day = days[i];
 
             }
         }
@@ -60,4 +63,3 @@ class Program {
 
     }
 }
-*/
